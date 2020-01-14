@@ -1,0 +1,16 @@
+{
+  "name": "<%= name %>",
+  "version": "<%= version %>",
+  "description": "<%= description %>",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp --cwd--gulpfile ./config/gulpfile.js",
+    "rollup": "rollup --config ./config/rollup/rollup.config.js",
+    "dev": "webpack-dev-server --inline --progress --config ./config/webpack/webpack.dev.js",
+    "build": "webpack --config ./config/webpack/webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "<%= author %>",
+  "email": "<%= email %>",
+  "license": "ISC"
+}
