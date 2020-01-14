@@ -12,7 +12,7 @@ module.exports = class extends Generator {
   prompting() {
     // Have Yeoman greet the user.
     this.log(
-      yosay(`Welcome to the mind-blowing ${chalk.red('tscli')} generator!`)
+      yosay(`Welcome to the mind-blowing local ${chalk.rgb(30,144,255)('tscli')} generator!`)
     );
     // Inquiry module
     const prompts = [
